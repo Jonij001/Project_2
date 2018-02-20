@@ -70,77 +70,27 @@
     </script>
 
     <ul>
-      <li><a class="active" href="index.html">WVS analytic trail</a></li>
+      <li><a href="index.html">WVS Analytic Trail</a></li>
       <li><a href="d3.html">D3 Visualization</a></li>
+      <li><a class="active" href="learned.html">What I Learned</a></li>
     </ul>
 
 
       <div id="analyticTrail" style="margin-left:10%;padding:1px 16px;height:1000px;">
 
         <h1>
-          WVS analytic trail
+          What I Learned
         </h1>
 
         <p>
-          WVS is a global sociological research project with the purpose to explore people’s values and beliefs over time. We want to look at how the use of personal computers have changed in frequency throughout the years. In the survey the question <i>“How often use of PC/personal computer”</i> was only asked between the years 2005-2009 (Wave 5) and 2010-2014 (Wave 6) making these our datasets to examan.
+          In this assignment I followed a lot of guides where I learn how the basics for d3 works and how to implement it (<a href="https://www.youtube.com/watch?v=n5NcCoa9dDU&list=PL6il2r9i3BqH9PmbOf5wA5E1wOG3FT22p"><i>Link to main youtube tutorial used</i></a>).
+          One thing I had a hard time grasping was how to import a lot of different datasets and combine them using javascript.
+          To then make a d3 visualization using many different datasets was hard for me. As I understood the d3-layout, I couldn't comprehend how to do a visualization from scratch.
+          It was not until much later I saw we could use d3-templates, making the initial startup process easier.
           <br>
         </p>
 
-        <div>
-          <img src="analytic_trail_screenshots/1.5_question_01.PNG">
-          <img src="analytic_trail_screenshots/1.5_question_02.PNG">
-        </div>
-
-        <p>
-          We select the largest dataset (in form of countries) possible that can be found in both Wave 5 and 6.
-          <br>
-        </p>
-
-        <div>
-          <img src="analytic_trail_screenshots/1_select_01.PNG">
-          <img src="analytic_trail_screenshots/1_select_02.PNG">
-        </div>
-
-        <p>
-          In the map overview we filter on the index where people answered “frequently” to the question. Here we see that the frequency for all countries increased from Wave 5 to Wave 6 as the index values got higher.
-          <br>
-        </p>
-
-        <div>
-          <img src="analytic_trail_screenshots/3_map_01.PNG">
-          <img src="analytic_trail_screenshots/3_map_02.PNG">
-        </div>
-
-        <p>
-          When filtering on a higher index, displaying only the countries that most frequently uses PCs, a trend could be seen in both Wave 5 and 6 where Sweden had the highest index. This made me interested in more closely looking at Sweden.
-          <br>
-        </p>
-
-        <div>
-          <img src="analytic_trail_screenshots/4_map_01.PNG">
-          <img src="analytic_trail_screenshots/4_map_02.PNG">
-        </div>
-
-        <p>
-          We then Zoom in at Sweden with a more detailed view.
-          <br>
-        </p>
-
-        <div>
-          <img src="analytic_trail_screenshots/5_sweden_01.PNG">
-          <img src="analytic_trail_screenshots/5_sweden_02.PNG">
-        </div>
-
-        <p>
-          We decide to filter on age to see in what age groups the frequency increased the most between Wave 5 and 6.
-          Here we see that most of the younger generation already frequently used PCs in Wave 5 with only a small increase in Wave 6. Only 53% of the ones being 50 years old or higher used PCs frequently in Wave 5 with a more significant increase in Wave 6.
-          <br>
-        </p>
-
-        <div>
-          <img src="analytic_trail_screenshots/6_age_01.PNG">
-          <img src="analytic_trail_screenshots/6_age_02.PNG">
-        </div>
       </div>
+
   </body>
 </html>
